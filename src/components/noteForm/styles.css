@@ -1,0 +1,46 @@
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+.formBody {
+  position: relative;
+  width: 800px;
+  height: 904px;
+  margin: 60px auto auto auto;
+
+  background-color: #ffffff;
+}
+
+.formHeader {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.formHeader span {
+  display: inline-block;
+}
+
+.btn {
+  display: inline-block;
+}
+
+.headerButton {
+  cursor: pointer;
+  margin: 10px;
+}
+
+.formContent {
+  padding: 30px;
+}
+
+.noteTextArea {
+  width: 100%;
+  min-height: 400px;
+}

@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1300px;
+  margin: 2rem auto auto auto;
+}
+
+.tile {
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px 22px 17px 16px;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.15);
+  font-family: Merriweather;
+  font-size: 0.5rem;
+  text-shadow: 0px 1.09677px 1.09677px rgba(0, 0, 0, 0.25);
+}
+
+.tile:hover {
+  cursor: pointer;
+  border: 3px solid #b90445;
+}
+
+.tilePlus {
+  background-color: #b90445;
+  border: 3px solid #b90445;
+}
+
+.tilePlusWrapper {
+  background-color: #b90445;
+  border: 3px solid #b90445;
+  width: 100%;
+  height: 150px;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 150px;
+}
+
+.tilePlusContent {
+  display: inline-block;
+  margin: auto;
+  font-family: Roboto;
+  font-size: 64px;
+  color: #ffffff;
+}
